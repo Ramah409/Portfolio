@@ -1,0 +1,88 @@
+* {
+
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #4CAF51;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    width: 100%;
+}
+.aventures {
+    padding: 15px;
+}
+.noir {
+    background-color:#333333;
+    color: white;
+    text-align: center;
+    padding: 10px; 
+    
+}
+.noir a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+}
+body {
+    background-color: #F9F9F9;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden; 
+}
+div {
+    background-color: #F9F9F9;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); 
+}
+.img {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    width: 100%;
+    
+}
+img {
+    width: 100%;
+    padding: 10px;
+}
+/* Mon image */
+
+article {
+    box-shadow: 1px 0px 12px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    background-color: #FFFFFF;
+}
+.article2 {
+    box-shadow: 1px 0px 12px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    background-color: #F0F0F0;
+}
+/* Pieds de page footer  */    
+footer {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.espace {
+    background-color: #F9F9F9;
+}
+/* Version mobile tous les écrans entre 0px et 768px */
+@media (max-width: 568px) {
+    .noir, header {
+        font-size: 10px;
+        padding: 10px; 
+    }
+}
+/* Image */
+@media (max-width: 600px) {
+    .img, nav {
+        flex-direction: column;
+        align-items:center;
+    }
+}
+
+  

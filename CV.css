@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #C29B9B;
+    text-align: center;
+    padding: 10px;
+}
+h1 {
+    margin: 0;
+    letter-spacing: 2px; 
+}
+.corps {
+    display: flex;
+}
+.information {
+    width: 40%;
+    padding: 5px;
+    background-color: #E5D1D0;
+    line-height: 20px;
+}
+.info {
+    width: auto;
+    
+}
+.formation {
+    background-color: #F8E6E5;
+    width: 100%;
+}
+.experience1 {
+    background-color: #EFCFCF;
+}
+.experience2 {
+    background-color: #FABEBF;
+}
+ul {
+    padding-left: 1.6;
+}
+ul a {
+    text-decoration: none;
+    color: black;
+}
+
+
+  
+
