@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.accueil {
+    background-color:rgb(223, 165, 204);
+    padding: 10px;
+    text-align: center;
+
+}
+header a {
+    text-decoration: none;
+    color: black;
+    padding: 30px;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+h2 {
+    text-align: center;
+}
+footer {
+    text-align: center;
+    box-shadow: 5px 10px 5px;
+}
+h2 a {
+    text-decoration: none;
+}
+h1 {
+    text-align: center;
+}
+.bouton {
+    margin-top: 10px;
+    color: rgb(9, 8, 9);
+    transition: all 2s;
+    padding: 1rem;
+    border-radius: 5rem;
+
+}
+.bouton:hover {
+    transform: scale(1s);
+    background-color: rgb(180, 93, 138);
+    cursor: pointer;
+    color: blueviolet;
+    
+}
+form {
+    background-color: rgb(238, 193, 220);
+    border-radius: 30px;
+    padding: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+input {
+    padding: 1rem;
+    border-radius: 5rem;
+    padding: 10px;
+}
+textarea {
+    padding: 1rem;
+    border-radius: 5rem;
+    padding: 10px;
+}
+article {
+    text-align: center;
+    box-shadow: 10px 30px 20px 0 rgba(2, 2, 2, 0.2);
+    border-radius: 1em 1em 0 0;
+    border: 20px;
+}
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Colone */
+    grid-template-rows: repeat(2, auto); /* ligne */
+    gap: 1rem;
+}
+.page a{
+    text-align:center ;
+    text-decoration: none;
+}
+.noir {
+    background-color: rgb(213, 194, 204);
+}
+.portfolio {
+    background-color: rgb(223, 165, 204);
+}
+div a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    margin: 20px;
+}
+.presentation {
+    background-color: rgb(223, 165, 204);
+}
+
+  .touche {
+    padding: 20px;
+  }
+  /* reponsive version mobile  */ 
+  @media screen and (max-width: 599px) {
+    .accueil {
+        background-color: blueviolet;
+    }
+  }
